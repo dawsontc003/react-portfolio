@@ -33,20 +33,24 @@ function Contact(props) {
           Submit
         </button>
       </form>
-      <img
-        src="https://dawsontc003.github.io/responsive-portfolio/Assets/github-icon.gif"
-        class="card-img-to"
-        alt="..."
-        width="100"
-        height="100"
-      ></img>
-      <img
-        src="https://dawsontc003.github.io/responsive-portfolio/Assets/linkedin%20icon.jpg"
-        class="card-img-to"
-        alt="..."
-        width="100"
-        height="100"
-      ></img>
+      <a href="https://github.com/dawsontc003" target="_blank">
+        <img
+          src="https://dawsontc003.github.io/responsive-portfolio/Assets/github-icon.gif"
+          class="card-img-to"
+          alt="..."
+          width="100"
+          height="100"
+        ></img>
+      </a>
+      <a href="https://www.linkedin.com/in/dawsontc/" target="_blank">
+        <img
+          src="https://dawsontc003.github.io/responsive-portfolio/Assets/linkedin%20icon.jpg"
+          class="card-img-to"
+          alt="..."
+          width="100"
+          height="100"
+        ></img>
+      </a>
       <br></br>
       <Link
         to={`${props.match.url}/learn`}
