@@ -5,22 +5,27 @@ function About() {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
 
-  function onDocumentLoadSuccess({ numPages, pageNumber }) {
+  function onDocumentLoadSuccess({ numPages }) {
     setNumPages(numPages);
-    setPageNumber(pageNumber);
   }
 
   return (
     <div>
-      <Document
-        file="https://dawsontc003.github.io/responsive-portfolio/Assets/Dawson,%20Thomas%20Resume.pdf"
-        onLoadSuccess={onDocumentLoadSuccess}
-      >
-        <Page pageNumber={pageNumber} />
-      </Document>
-      <p>
-        Page {pageNumber} of {numPages}
-      </p>
+      <img
+        href="https://dawsontc003.github.io/responsive-portfolio/Assets/Dawson,%20Thomas%20Resume.pdf"
+        src="https://dawsontc003.github.io/responsive-portfolio/Assets/resume-page1.GIF"
+        class="card-img-to"
+        alt="Resume page 1"
+        width="60%"
+        height="60%"
+      ></img>
+      <img
+        src="https://dawsontc003.github.io/responsive-portfolio/Assets/resume-page2.GIF"
+        class="card-img-to"
+        alt="Resume page 2"
+        width="60%"
+        height="60%"
+      ></img>
     </div>
   );
 }
