@@ -3,7 +3,7 @@ import "../../styles/home.css";
 
 function Home() {
   return (
-    <div class="article">
+    <div className="article body">
       <h1>About Thomas Dawson</h1>
       <img
         src="https://bootcampspot.com/broker/studentAvatar?accountId=61205"

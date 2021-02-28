@@ -5,7 +5,7 @@ import "../../styles/contact.css";
 
 function Contact(props) {
   return (
-    <div>
+    <div class="body">
       <h1>Contact Page</h1>
       <form class="section">
         <label for="exampleFormControlInput1">Name</label>
