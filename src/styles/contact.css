@@ -1,7 +1,29 @@
 .section {
-  margin-right: 60%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 .body {
-  background-color: #a3b4a2;
   font-family: fantasy;
+}
+#bkgrdImage {
+  height: 100%;
+  width: 100%;
+}
+.center {
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+}
+p {
+  text-align: center;
+}
+.centerLink {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.centerImg {
+  display: block;
+  margin-left: 500px;
 }
