@@ -3,13 +3,24 @@ import "../../styles/home.css";
 
 function Home() {
   return (
-    <div className="article body">
+    <div
+      className="article body"
+      style={{
+        backgroundImage: `url("https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80")`,
+        backgroundRepeat: "repeat",
+        width: "100%",
+        height: "100%",
+        color: "black",
+      }}
+    >
       <h1>About Thomas Dawson</h1>
       <img
         src="https://bootcampspot.com/broker/studentAvatar?accountId=61205"
         alt="Profile picture of Thomas Dawson"
       />
-
+      <br></br>
+      <br></br>
+      <br></br>
       <p>
         Throughout my 36 years I have wore many hats in different industries.
         During this time I have grew a passion for programming technology. My
