@@ -1,12 +1,13 @@
 import React from "react";
 import { Link, Route } from "react-router-dom";
 import Learn from "./Learn";
+import "../../styles/contact.css";
 
 function Contact(props) {
   return (
-    <div>
+    <div class="body">
       <h1>Contact Page</h1>
-      <form>
+      <form class="section">
         <label for="exampleFormControlInput1">Name</label>
         <input
           type="email"
@@ -33,20 +34,6 @@ function Contact(props) {
           Submit
         </button>
       </form>
-      <img
-        src="https://dawsontc003.github.io/responsive-portfolio/Assets/github-icon.gif"
-        class="card-img-to"
-        alt="..."
-        width="100"
-        height="100"
-      ></img>
-      <img
-        src="https://dawsontc003.github.io/responsive-portfolio/Assets/linkedin%20icon.jpg"
-        class="card-img-to"
-        alt="..."
-        width="100"
-        height="100"
-      ></img>
       <br></br>
       <Link
         to={`${props.match.url}/learn`}
@@ -59,6 +46,25 @@ function Contact(props) {
         Hide Projects
       </Link>
       <Route exact path={`${props.match.url}/learn`} component={Learn} />
+      <br></br>
+      <a href="https://github.com/dawsontc003" target="_blank">
+        <img
+          src="https://dawsontc003.github.io/responsive-portfolio/Assets/github-icon.gif"
+          class="card-img-to"
+          alt="..."
+          width="100"
+          height="100"
+        ></img>
+      </a>
+      <a href="https://www.linkedin.com/in/dawsontc/" target="_blank">
+        <img
+          src="https://dawsontc003.github.io/responsive-portfolio/Assets/linkedin%20icon.jpg"
+          class="card-img-to"
+          alt="..."
+          width="100"
+          height="100"
+        ></img>
+      </a>
     </div>
   );
 }

@@ -1,12 +1,12 @@
 import React from "react";
+import "../../styles/home.css";
 
 function Home() {
   return (
-    <div>
+    <div className="article body">
       <h1>About Thomas Dawson</h1>
       <img
         src="https://bootcampspot.com/broker/studentAvatar?accountId=61205"
-        class=""
         alt="Profile picture of Thomas Dawson"
       />
 

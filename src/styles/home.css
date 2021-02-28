@@ -1,0 +1,11 @@
+.article {
+  margin: auto;
+  width: 80%;
+  border: 3px solid black;
+  padding: 10px;
+}
+.body {
+  /* background-color: #a3b4a2; */
+
+  font-family: fantasy;
+}
