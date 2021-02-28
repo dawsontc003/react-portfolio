@@ -1,12 +1,13 @@
 import React from "react";
 import { Link, Route } from "react-router-dom";
 import Learn from "./Learn";
+import "../../styles/contact.css";
 
 function Contact(props) {
   return (
     <div>
       <h1>Contact Page</h1>
-      <form>
+      <form class="section">
         <label for="exampleFormControlInput1">Name</label>
         <input
           type="email"
@@ -33,6 +34,19 @@ function Contact(props) {
           Submit
         </button>
       </form>
+      <br></br>
+      <Link
+        to={`${props.match.url}/learn`}
+        role="button"
+        className="btn btn-link"
+      >
+        Show Projects
+      </Link>{" "}
+      <Link to="/contact" role="button" className="btn btn-link">
+        Hide Projects
+      </Link>
+      <Route exact path={`${props.match.url}/learn`} component={Learn} />
+      <br></br>
       <a href="https://github.com/dawsontc003" target="_blank">
         <img
           src="https://dawsontc003.github.io/responsive-portfolio/Assets/github-icon.gif"
@@ -51,18 +65,6 @@ function Contact(props) {
           height="100"
         ></img>
       </a>
-      <br></br>
-      <Link
-        to={`${props.match.url}/learn`}
-        role="button"
-        className="btn btn-link"
-      >
-        Show Projects
-      </Link>{" "}
-      <Link to="/contact" role="button" className="btn btn-link">
-        Hide Projects
-      </Link>
-      <Route exact path={`${props.match.url}/learn`} component={Learn} />
     </div>
   );
 }

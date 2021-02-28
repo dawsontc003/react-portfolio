@@ -1,0 +1,8 @@
+.section {
+  margin-right: 60%;
+}
+#center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
