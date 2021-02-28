@@ -1,11 +1,22 @@
 .article {
   margin: auto;
   width: 80%;
-
-  padding: 10px;
-}
-.body {
-  /* background-color: #a3b4a2; */
-
   font-family: fantasy;
+  padding: 10px;
+  text-align: justify;
+  background-color: white;
+}
+img {
+  margin-right: 2%;
+  float: left;
+  clear: left;
+}
+.aside {
+  padding-left: 5%;
+  padding-right: 2%;
+  font-size: 17px;
+}
+#bkgrdImage {
+  height: 100%;
+  width: 100%;
 }
