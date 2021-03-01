@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import "../styles/nav.css";
 
 function NavTabs() {
   // We'll go into the Hooks API later, for now, we are just using some code
@@ -37,6 +38,28 @@ function NavTabs() {
           Resume
         </Link>
       </li>
+      <a
+        className="navFloat"
+        href="https://github.com/dawsontc003"
+        target="_blank"
+      >
+        <img
+          src="https://dawsontc003.github.io/responsive-portfolio/Assets/github-icon.gif"
+          class="card-img-to"
+          alt="..."
+          width="40"
+          height="40"
+        ></img>
+      </a>
+      <a href="https://www.linkedin.com/in/dawsontc/" target="_blank">
+        <img
+          src="https://dawsontc003.github.io/responsive-portfolio/Assets/linkedin%20icon.jpg"
+          class="card-img-to"
+          alt="..."
+          width="40"
+          height="40"
+        ></img>
+      </a>
     </ul>
   );
 }

@@ -7,10 +7,9 @@ function Home() {
       className="article body"
       style={{
         backgroundImage: `url("https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80")`,
-        backgroundRepeat: "repeat",
+        backgroundRepeat: "no-repeat",
         width: "100%",
         height: "100%",
-        color: "black",
       }}
     >
       <h1>About Thomas Dawson</h1>
@@ -46,6 +45,7 @@ function Home() {
         inspire to be having my hands involed with software implementation
         sooner than later!
       </p>
+      <br></br>
     </div>
   );
 }
