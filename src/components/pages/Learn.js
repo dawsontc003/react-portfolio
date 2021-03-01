@@ -4,7 +4,6 @@ function Learn() {
   return (
     <div>
       <h1 className="text-center">Notable Projects</h1>
-      <h5 class="card-title">Colorado Park Rangers</h5>
       <img
         src="https://dawsontc003.github.io/responsive-portfolio/Assets/parkrangers.PNG"
         class="card-img-to"
@@ -12,13 +11,14 @@ function Learn() {
         width="400"
         height="300"
       ></img>
-      <br></br>
+      <h5 class="card-title">Colorado Park Rangers</h5>
       <a
         id="project1repo"
         href="https://github.com/dawsontc003/CO_Park_Rangers"
       >
         https://github.com/dawsontc003/CO_Park_Rangers
       </a>
+
       <br></br>
       <a id="project1url" href="https://dawsontc003.github.io/CO_Park_Rangers/">
         https://dawsontc003.github.io/CO_Park_Rangers
@@ -30,7 +30,13 @@ function Learn() {
         and hours of the national parks but it also will provide a list of
         activities that are available at each park.
       </p>
-      <h5 class="card-title">Budget Tracker</h5>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <img
         src="https://dawsontc003.github.io/responsive-portfolio/Assets/budget-tracker.GIF"
         class="card-img-to"
@@ -38,6 +44,9 @@ function Learn() {
         width="400"
         height="300"
       ></img>
+      <br></br>
+      <h5 class="card-title">Budget Tracker</h5>
+
       <br></br>
       <a id="project1repo" href="https://github.com/dawsontc003/budget-tracker">
         https://github.com/dawsontc003/budget-tracker
@@ -54,7 +63,12 @@ function Learn() {
         and soon as the application is back online any submitted transactions
         will be sent to the database.
       </p>
-      <h5 class="card-title">Workout Tracker</h5>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+
       <img
         src="https://dawsontc003.github.io/responsive-portfolio/Assets/workout-tracker.GIF"
         class="card-img-to"
@@ -62,6 +76,9 @@ function Learn() {
         width="400"
         height="300"
       ></img>
+      <br></br>
+      <h5 class="card-title">Workout Tracker</h5>
+
       <br></br>
       <a
         id="project1repo"
@@ -79,7 +96,12 @@ function Learn() {
         pick up from a stopping point and continue. The application will track
         reps as well as time.
       </p>
-      <h5 class="card-title">Discover Your Inner-Animal</h5>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+
       <img
         src="https://dawsontc003.github.io/responsive-portfolio/Assets/inner-animal.GIF"
         class="card-img-to"
@@ -87,6 +109,9 @@ function Learn() {
         width="400"
         height="300"
       ></img>
+      <br></br>
+      <h5 class="card-title">Discover Your Inner-Animal</h5>
+
       <br></br>
       <a
         id="project1repo"
@@ -106,7 +131,11 @@ function Learn() {
         scores table the user will be presente with an animal image that matches
         their personality.
       </p>
-      <h5 class="card-title">Note Taker</h5>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+
       <img
         src="https://dawsontc003.github.io/responsive-portfolio/Assets/note-taker.GIF"
         class="card-img-to"
@@ -114,6 +143,9 @@ function Learn() {
         width="400"
         height="300"
       ></img>
+      <br></br>
+      <h5 class="card-title">Note Taker</h5>
+
       <br></br>
       <a id="project1repo" href="https://github.com/dawsontc003/note-taker">
         https://github.com/dawsontc003/note-taker/
@@ -131,7 +163,11 @@ function Learn() {
         a title or category for easy recognition. Users can enter notes to be
         saved to a database and update any notes as needed.
       </p>
-      <h5 class="card-title">Secure Password Generator</h5>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <img
         src="https://dawsontc003.github.io/responsive-portfolio/Assets/password-generator.GIF"
         class="card-img-to"
@@ -139,6 +175,9 @@ function Learn() {
         width="400"
         height="300"
       ></img>
+      <br></br>
+      <h5 class="card-title">Secure Password Generator</h5>
+
       <br></br>
       <a
         id="project1repo"

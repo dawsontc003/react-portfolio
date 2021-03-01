@@ -8,11 +8,10 @@ function Contact(props) {
     <div
       class="body"
       style={{
-        backgroundImage: `url("https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80")`,
+        backgroundImage: `url("https://images.unsplash.com/photo-1485207942280-52442adf437e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1401&q=80")`,
         backgroundRepeat: "repeat",
         width: "100%",
         height: "100%",
-        color: "black",
       }}
     >
       <h1>Contact Page</h1>
@@ -55,6 +54,11 @@ function Contact(props) {
         Hide Projects
       </Link>
       <Route exact path={`${props.match.url}/learn`} component={Learn} />
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <br></br>
       <br></br>
       <br></br>

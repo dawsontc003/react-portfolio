@@ -6,8 +6,8 @@ function Home() {
     <div
       className="article body"
       style={{
-        backgroundImage: `url("https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80")`,
-        backgroundRepeat: "no-repeat",
+        backgroundImage: `url("https://images.unsplash.com/photo-1485207942280-52442adf437e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1401&q=80")`,
+        backgroundRepeat: "repeat",
         width: "100%",
         height: "100%",
       }}
@@ -20,7 +20,7 @@ function Home() {
       <br></br>
       <br></br>
       <br></br>
-      <p>
+      <p className="article">
         Throughout my 36 years I have wore many hats in different industries.
         During this time I have grew a passion for programming technology. My
         introduction into manipulating HTML came from the first faces of social
